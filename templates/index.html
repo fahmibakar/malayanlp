@@ -1,4 +1,6 @@
 {% extends 'base.html' %} {% block head %} {% endblock %} {% block body %}
+
+<!--Start Navigation Section-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <h6 class="navbar-brand" href="#">NIISe Projects</h6>
@@ -37,8 +39,17 @@
     </div>
   </div>
 </nav>
+<!--End Navigation Section-->
+
 <center>
   <h1>Natural Language Processing</h1>
 </center>
+
+<!--Start Input File Section-->
+<div class="input-group mb-3">
+  <input type="file" class="form-control" id="inputGroupFile02" />
+  <label class="input-group-text" for="inputGroupFile02">Upload</label>
+</div>
+<!--End Input File Section-->
 
 {% endblock %}
